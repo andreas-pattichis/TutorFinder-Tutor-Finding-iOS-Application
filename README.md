@@ -1,5 +1,7 @@
 ## epl343.winter21.team10
 
+Cloned project from: https://github.com/CS-UCY-EPL343/epl343.winter21.team10.git
+
 # TutorFinder
 
 TutorFinder is a convenient mobile application developed to make the process of finding and registering with a tutor as simple as possible. In addition, the app can be used as a class managing tool from which tutors can organize their classrooms and students can keep track of class schedules, lecture notes, and assignments
