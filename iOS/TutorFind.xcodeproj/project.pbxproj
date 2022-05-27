@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0212B3DB275298B40012C229 /* UserSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3D9275298B40012C229 /* UserSignInView.swift */; };
+		0212B3DC275298B40012C229 /* UserRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3DA275298B40012C229 /* UserRegisterView.swift */; };
+		0212B3E3275298CD0012C229 /* MyCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3DE275298CD0012C229 /* MyCoursesView.swift */; };
+		0212B3E4275298CD0012C229 /* CoursesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3DF275298CD0012C229 /* CoursesListViewModel.swift */; };
+		0212B3E5275298CD0012C229 /* CourseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3E0275298CD0012C229 /* CourseCellView.swift */; };
+		0212B3E6275298CD0012C229 /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3E1275298CD0012C229 /* CourseViewModel.swift */; };
+		0212B3E7275298CD0012C229 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3E2275298CD0012C229 /* CourseDetailView.swift */; };
+		0212B3EA275298E60012C229 /* GradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3E8275298E60012C229 /* GradeView.swift */; };
+		0212B3EB275298E60012C229 /* EnterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3E9275298E60012C229 /* EnterGradeView.swift */; };
+		0212B3F3275298F10012C229 /* ReviewDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3ED275298F10012C229 /* ReviewDetailView.swift */; };
+		0212B3F4275298F10012C229 /* TeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3EE275298F10012C229 /* TeacherView.swift */; };
+		0212B3F5275298F10012C229 /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3EF275298F10012C229 /* ReviewViewModel.swift */; };
+		0212B3F6275298F10012C229 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3F0275298F10012C229 /* StarsView.swift */; };
+		0212B3F7275298F10012C229 /* ReviewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3F1275298F10012C229 /* ReviewListViewModel.swift */; };
+		0212B3F8275298F10012C229 /* NewReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3F2275298F10012C229 /* NewReviewView.swift */; };
+		0212B3FC2752990B0012C229 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3FA2752990B0012C229 /* SearchView.swift */; };
+		0212B3FD2752990B0012C229 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212B3FB2752990B0012C229 /* Search.swift */; };
+		0234FFE027593A2E0091CB71 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234FFDF27593A2E0091CB71 /* CalendarView.swift */; };
+		0234FFE227593A410091CB71 /* EditGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234FFE127593A410091CB71 /* EditGradeView.swift */; };
+		0234FFE427593AC30091CB71 /* EditCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234FFE327593AC30091CB71 /* EditCourseView.swift */; };
+		0234FFE627593AEA0091CB71 /* EditReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234FFE527593AEA0091CB71 /* EditReviewView.swift */; };
+		02B1765A27581AE500EE4C2D /* UserListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1765927581AE500EE4C2D /* UserListVM.swift */; };
+		02B1765C27581B6900EE4C2D /* CustomFilterSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1765B27581B6900EE4C2D /* CustomFilterSelectionView.swift */; };
+		02B1766027581C6D00EE4C2D /* GradeListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1765F27581C6D00EE4C2D /* GradeListVM.swift */; };
+		02BAF167274D71FE008E61D0 /* TutorFindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF166274D71FE008E61D0 /* TutorFindApp.swift */; };
+		02BAF169274D71FE008E61D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF168274D71FE008E61D0 /* ContentView.swift */; };
+		02BAF16B274D71FF008E61D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BAF16A274D71FF008E61D0 /* Assets.xcassets */; };
+		02BAF16E274D71FF008E61D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BAF16D274D71FF008E61D0 /* Preview Assets.xcassets */; };
+		02BAF178274D71FF008E61D0 /* TutorFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF177274D71FF008E61D0 /* TutorFindTests.swift */; };
+		02BAF182274D71FF008E61D0 /* TutorFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF181274D71FF008E61D0 /* TutorFindUITests.swift */; };
+		02BAF184274D71FF008E61D0 /* TutorFindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF183274D71FF008E61D0 /* TutorFindUITestsLaunchTests.swift */; };
+		02BAF191274D7218008E61D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF190274D7218008E61D0 /* User.swift */; };
+		02BAF196274FCAF5008E61D0 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF195274FCAF5008E61D0 /* Professor.swift */; };
+		02BAF198274FCB22008E61D0 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BAF197274FCB22008E61D0 /* Grade.swift */; };
+		02CD67422755B9C40049FC09 /* MultiSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD67412755B9C40049FC09 /* MultiSelectionView.swift */; };
+		02CD67442755BA050049FC09 /* NewCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD67432755BA050049FC09 /* NewCourseView.swift */; };
+		02CD67462755BA340049FC09 /* EnterGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD67452755BA340049FC09 /* EnterGradeViewModel.swift */; };
+		02CD67482755BA3D0049FC09 /* GradeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD67472755BA3D0049FC09 /* GradeDetailView.swift */; };
+		02CD674A2755BA510049FC09 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD67492755BA510049FC09 /* UserView.swift */; };
+		02CD674C2755BCBC0049FC09 /* GradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD674B2755BCBC0049FC09 /* GradesView.swift */; };
+		02CD674E2755DFA20049FC09 /* SimpleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD674D2755DFA20049FC09 /* SimpleMapView.swift */; };
+		02EF60342752F688006A6600 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02EF60332752F688006A6600 /* GoogleService-Info.plist */; };
+		02EF60372752F709006A6600 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02EF60362752F709006A6600 /* FirebaseAuth */; };
+		02EF60392752F709006A6600 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 02EF60382752F709006A6600 /* FirebaseDatabase */; };
+		02EF603C2752F802006A6600 /* LocationPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 02EF603B2752F802006A6600 /* LocationPicker */; };
+		02EF603E2752F830006A6600 /* GenericVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF603D2752F830006A6600 /* GenericVM.swift */; };
+		02EF60402752F857006A6600 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF603F2752F857006A6600 /* Protocols.swift */; };
+		02EF60422752F865006A6600 /* GenericListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF60412752F865006A6600 /* GenericListVM.swift */; };
+		02EF60462752F910006A6600 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF60452752F910006A6600 /* Extensions.swift */; };
+		02EF60482752F920006A6600 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF60472752F920006A6600 /* Helpers.swift */; };
+		02EF604A2752FAA6006A6600 /* CourseRegisterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF60492752FAA6006A6600 /* CourseRegisterVM.swift */; };
+		02EF604C2752FB57006A6600 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF604B2752FB57006A6600 /* Enums.swift */; };
+		02EF604E2752FC30006A6600 /* CourseRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF604D2752FC30006A6600 /* CourseRegister.swift */; };
+		02EF60502752FC78006A6600 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF604F2752FC78006A6600 /* Global.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02BAF174274D71FF008E61D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02BAF15B274D71FE008E61D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02BAF162274D71FE008E61D0;
+			remoteInfo = TutorFind;
+		};
+		02BAF17E274D71FF008E61D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02BAF15B274D71FE008E61D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02BAF162274D71FE008E61D0;
+			remoteInfo = TutorFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0212B3D9275298B40012C229 /* UserSignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSignInView.swift; sourceTree = "<group>"; };
+		0212B3DA275298B40012C229 /* UserRegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegisterView.swift; sourceTree = "<group>"; };
+		0212B3DE275298CD0012C229 /* MyCoursesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCoursesView.swift; sourceTree = "<group>"; };
+		0212B3DF275298CD0012C229 /* CoursesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesListViewModel.swift; sourceTree = "<group>"; };
+		0212B3E0275298CD0012C229 /* CourseCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCellView.swift; sourceTree = "<group>"; };
+		0212B3E1275298CD0012C229 /* CourseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
+		0212B3E2275298CD0012C229 /* CourseDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		0212B3E8275298E60012C229 /* GradeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeView.swift; sourceTree = "<group>"; };
+		0212B3E9275298E60012C229 /* EnterGradeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterGradeView.swift; sourceTree = "<group>"; };
+		0212B3ED275298F10012C229 /* ReviewDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewDetailView.swift; sourceTree = "<group>"; };
+		0212B3EE275298F10012C229 /* TeacherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherView.swift; sourceTree = "<group>"; };
+		0212B3EF275298F10012C229 /* ReviewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		0212B3F0275298F10012C229 /* StarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		0212B3F1275298F10012C229 /* ReviewListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewListViewModel.swift; sourceTree = "<group>"; };
+		0212B3F2275298F10012C229 /* NewReviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReviewView.swift; sourceTree = "<group>"; };
+		0212B3FA2752990B0012C229 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0212B3FB2752990B0012C229 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		0234FFDF27593A2E0091CB71 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		0234FFE127593A410091CB71 /* EditGradeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGradeView.swift; sourceTree = "<group>"; };
+		0234FFE327593AC30091CB71 /* EditCourseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCourseView.swift; sourceTree = "<group>"; };
+		0234FFE527593AEA0091CB71 /* EditReviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditReviewView.swift; sourceTree = "<group>"; };
+		02B1765927581AE500EE4C2D /* UserListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListVM.swift; sourceTree = "<group>"; };
+		02B1765B27581B6900EE4C2D /* CustomFilterSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFilterSelectionView.swift; sourceTree = "<group>"; };
+		02B1765F27581C6D00EE4C2D /* GradeListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeListVM.swift; sourceTree = "<group>"; };
+		02BAF163274D71FE008E61D0 /* TutorFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BAF166274D71FE008E61D0 /* TutorFindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorFindApp.swift; sourceTree = "<group>"; };
+		02BAF168274D71FE008E61D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02BAF16A274D71FF008E61D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02BAF16D274D71FF008E61D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02BAF173274D71FF008E61D0 /* TutorFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BAF177274D71FF008E61D0 /* TutorFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorFindTests.swift; sourceTree = "<group>"; };
+		02BAF17D274D71FF008E61D0 /* TutorFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BAF181274D71FF008E61D0 /* TutorFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorFindUITests.swift; sourceTree = "<group>"; };
+		02BAF183274D71FF008E61D0 /* TutorFindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorFindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02BAF190274D7218008E61D0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		02BAF195274FCAF5008E61D0 /* Professor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		02BAF197274FCB22008E61D0 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		02CD67412755B9C40049FC09 /* MultiSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectionView.swift; sourceTree = "<group>"; };
+		02CD67432755BA050049FC09 /* NewCourseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCourseView.swift; sourceTree = "<group>"; };
+		02CD67452755BA340049FC09 /* EnterGradeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterGradeViewModel.swift; sourceTree = "<group>"; };
+		02CD67472755BA3D0049FC09 /* GradeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeDetailView.swift; sourceTree = "<group>"; };
+		02CD67492755BA510049FC09 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		02CD674B2755BCBC0049FC09 /* GradesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradesView.swift; sourceTree = "<group>"; };
+		02CD674D2755DFA20049FC09 /* SimpleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapView.swift; sourceTree = "<group>"; };
+		02EF60332752F688006A6600 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02EF603D2752F830006A6600 /* GenericVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericVM.swift; sourceTree = "<group>"; };
+		02EF603F2752F857006A6600 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		02EF60412752F865006A6600 /* GenericListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListVM.swift; sourceTree = "<group>"; };
+		02EF60452752F910006A6600 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		02EF60472752F920006A6600 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		02EF60492752FAA6006A6600 /* CourseRegisterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRegisterVM.swift; sourceTree = "<group>"; };
+		02EF604B2752FB57006A6600 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		02EF604D2752FC30006A6600 /* CourseRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRegister.swift; sourceTree = "<group>"; };
+		02EF604F2752FC78006A6600 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02BAF160274D71FE008E61D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EF603C2752F802006A6600 /* LocationPicker in Frameworks */,
+				02EF60392752F709006A6600 /* FirebaseDatabase in Frameworks */,
+				02EF60372752F709006A6600 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BAF170274D71FF008E61D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BAF17A274D71FF008E61D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0212B3D8275298B40012C229 /* AuthenticationView */ = {
+			isa = PBXGroup;
+			children = (
+				0212B3D9275298B40012C229 /* UserSignInView.swift */,
+				0212B3DA275298B40012C229 /* UserRegisterView.swift */,
+			);
+			path = AuthenticationView;
+			sourceTree = "<group>";
+		};
+		0212B3DD275298CD0012C229 /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				0234FFE327593AC30091CB71 /* EditCourseView.swift */,
+				0212B3DE275298CD0012C229 /* MyCoursesView.swift */,
+				0212B3DF275298CD0012C229 /* CoursesListViewModel.swift */,
+				02CD67432755BA050049FC09 /* NewCourseView.swift */,
+				0212B3E0275298CD0012C229 /* CourseCellView.swift */,
+				0212B3E1275298CD0012C229 /* CourseViewModel.swift */,
+				0212B3E2275298CD0012C229 /* CourseDetailView.swift */,
+			);
+			path = Courses;
+			sourceTree = "<group>";
+		};
+		0212B3EC275298F10012C229 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				0212B3ED275298F10012C229 /* ReviewDetailView.swift */,
+				0234FFE527593AEA0091CB71 /* EditReviewView.swift */,
+				0212B3EE275298F10012C229 /* TeacherView.swift */,
+				0212B3EF275298F10012C229 /* ReviewViewModel.swift */,
+				0212B3F0275298F10012C229 /* StarsView.swift */,
+				0212B3F1275298F10012C229 /* ReviewListViewModel.swift */,
+				0212B3F2275298F10012C229 /* NewReviewView.swift */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		0212B3F92752990B0012C229 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0212B3FA2752990B0012C229 /* SearchView.swift */,
+				0212B3FB2752990B0012C229 /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		02BAF15A274D71FE008E61D0 = {
+			isa = PBXGroup;
+			children = (
+				02BAF165274D71FE008E61D0 /* TutorFind */,
+				02BAF176274D71FF008E61D0 /* TutorFindTests */,
+				02BAF180274D71FF008E61D0 /* TutorFindUITests */,
+				02BAF164274D71FE008E61D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02BAF164274D71FE008E61D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02BAF163274D71FE008E61D0 /* TutorFind.app */,
+				02BAF173274D71FF008E61D0 /* TutorFindTests.xctest */,
+				02BAF17D274D71FF008E61D0 /* TutorFindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02BAF165274D71FE008E61D0 /* TutorFind */ = {
+			isa = PBXGroup;
+			children = (
+				02EF604B2752FB57006A6600 /* Enums.swift */,
+				0234FFDF27593A2E0091CB71 /* CalendarView.swift */,
+				02EF60332752F688006A6600 /* GoogleService-Info.plist */,
+				0212B3F92752990B0012C229 /* Search */,
+				0212B3D8275298B40012C229 /* AuthenticationView */,
+				02BAF166274D71FE008E61D0 /* TutorFindApp.swift */,
+				0212B3DD275298CD0012C229 /* Courses */,
+				02BAF194274FCAB9008E61D0 /* User */,
+				02BAF168274D71FE008E61D0 /* ContentView.swift */,
+				0212B3EC275298F10012C229 /* Reviews */,
+				02BAF199274FCB2F008E61D0 /* Grades */,
+				02BAF16A274D71FF008E61D0 /* Assets.xcassets */,
+				02BAF16C274D71FF008E61D0 /* Preview Content */,
+				02EF60442752F8DA006A6600 /* General */,
+				02EF60492752FAA6006A6600 /* CourseRegisterVM.swift */,
+				02EF604D2752FC30006A6600 /* CourseRegister.swift */,
+			);
+			path = TutorFind;
+			sourceTree = "<group>";
+		};
+		02BAF16C274D71FF008E61D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02BAF16D274D71FF008E61D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02BAF176274D71FF008E61D0 /* TutorFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				02BAF177274D71FF008E61D0 /* TutorFindTests.swift */,
+			);
+			path = TutorFindTests;
+			sourceTree = "<group>";
+		};
+		02BAF180274D71FF008E61D0 /* TutorFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02BAF181274D71FF008E61D0 /* TutorFindUITests.swift */,
+				02BAF183274D71FF008E61D0 /* TutorFindUITestsLaunchTests.swift */,
+			);
+			path = TutorFindUITests;
+			sourceTree = "<group>";
+		};
+		02BAF194274FCAB9008E61D0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				02B1765927581AE500EE4C2D /* UserListVM.swift */,
+				02CD67492755BA510049FC09 /* UserView.swift */,
+				02BAF190274D7218008E61D0 /* User.swift */,
+				02BAF195274FCAF5008E61D0 /* Professor.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		02BAF199274FCB2F008E61D0 /* Grades */ = {
+			isa = PBXGroup;
+			children = (
+				02CD67452755BA340049FC09 /* EnterGradeViewModel.swift */,
+				02CD67472755BA3D0049FC09 /* GradeDetailView.swift */,
+				02B1765F27581C6D00EE4C2D /* GradeListVM.swift */,
+				0234FFE127593A410091CB71 /* EditGradeView.swift */,
+				02CD674B2755BCBC0049FC09 /* GradesView.swift */,
+				0212B3E9275298E60012C229 /* EnterGradeView.swift */,
+				0212B3E8275298E60012C229 /* GradeView.swift */,
+				02BAF197274FCB22008E61D0 /* Grade.swift */,
+			);
+			path = Grades;
+			sourceTree = "<group>";
+		};
+		02EF60442752F8DA006A6600 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				02B1765B27581B6900EE4C2D /* CustomFilterSelectionView.swift */,
+				02EF603D2752F830006A6600 /* GenericVM.swift */,
+				02CD67412755B9C40049FC09 /* MultiSelectionView.swift */,
+				02EF603F2752F857006A6600 /* Protocols.swift */,
+				02EF60412752F865006A6600 /* GenericListVM.swift */,
+				02EF60452752F910006A6600 /* Extensions.swift */,
+				02EF60472752F920006A6600 /* Helpers.swift */,
+				02EF604F2752FC78006A6600 /* Global.swift */,
+				02CD674D2755DFA20049FC09 /* SimpleMapView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02BAF162274D71FE008E61D0 /* TutorFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BAF187274D71FF008E61D0 /* Build configuration list for PBXNativeTarget "TutorFind" */;
+			buildPhases = (
+				02BAF15F274D71FE008E61D0 /* Sources */,
+				02BAF160274D71FE008E61D0 /* Frameworks */,
+				02BAF161274D71FE008E61D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutorFind;
+			packageProductDependencies = (
+				02EF60362752F709006A6600 /* FirebaseAuth */,
+				02EF60382752F709006A6600 /* FirebaseDatabase */,
+				02EF603B2752F802006A6600 /* LocationPicker */,
+			);
+			productName = TutorFind;
+			productReference = 02BAF163274D71FE008E61D0 /* TutorFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02BAF172274D71FF008E61D0 /* TutorFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BAF18A274D71FF008E61D0 /* Build configuration list for PBXNativeTarget "TutorFindTests" */;
+			buildPhases = (
+				02BAF16F274D71FF008E61D0 /* Sources */,
+				02BAF170274D71FF008E61D0 /* Frameworks */,
+				02BAF171274D71FF008E61D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02BAF175274D71FF008E61D0 /* PBXTargetDependency */,
+			);
+			name = TutorFindTests;
+			productName = TutorFindTests;
+			productReference = 02BAF173274D71FF008E61D0 /* TutorFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02BAF17C274D71FF008E61D0 /* TutorFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BAF18D274D71FF008E61D0 /* Build configuration list for PBXNativeTarget "TutorFindUITests" */;
+			buildPhases = (
+				02BAF179274D71FF008E61D0 /* Sources */,
+				02BAF17A274D71FF008E61D0 /* Frameworks */,
+				02BAF17B274D71FF008E61D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02BAF17F274D71FF008E61D0 /* PBXTargetDependency */,
+			);
+			name = TutorFindUITests;
+			productName = TutorFindUITests;
+			productReference = 02BAF17D274D71FF008E61D0 /* TutorFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02BAF15B274D71FE008E61D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					02BAF162274D71FE008E61D0 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					02BAF172274D71FF008E61D0 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 02BAF162274D71FE008E61D0;
+					};
+					02BAF17C274D71FF008E61D0 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 02BAF162274D71FE008E61D0;
+					};
+				};
+			};
+			buildConfigurationList = 02BAF15E274D71FE008E61D0 /* Build configuration list for PBXProject "TutorFind" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02BAF15A274D71FE008E61D0;
+			packageReferences = (
+				02EF60352752F709006A6600 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				02EF603A2752F802006A6600 /* XCRemoteSwiftPackageReference "LocationPickerForSwiftUI" */,
+			);
+			productRefGroup = 02BAF164274D71FE008E61D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02BAF162274D71FE008E61D0 /* TutorFind */,
+				02BAF172274D71FF008E61D0 /* TutorFindTests */,
+				02BAF17C274D71FF008E61D0 /* TutorFindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02BAF161274D71FE008E61D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BAF16E274D71FF008E61D0 /* Preview Assets.xcassets in Resources */,
+				02BAF16B274D71FF008E61D0 /* Assets.xcassets in Resources */,
+				02EF60342752F688006A6600 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BAF171274D71FF008E61D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BAF17B274D71FF008E61D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02BAF15F274D71FE008E61D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0212B3E6275298CD0012C229 /* CourseViewModel.swift in Sources */,
+				02BAF169274D71FE008E61D0 /* ContentView.swift in Sources */,
+				0212B3E5275298CD0012C229 /* CourseCellView.swift in Sources */,
+				02EF60422752F865006A6600 /* GenericListVM.swift in Sources */,
+				0212B3F4275298F10012C229 /* TeacherView.swift in Sources */,
+				0212B3EA275298E60012C229 /* GradeView.swift in Sources */,
+				0212B3F5275298F10012C229 /* ReviewViewModel.swift in Sources */,
+				02CD674A2755BA510049FC09 /* UserView.swift in Sources */,
+				0212B3DC275298B40012C229 /* UserRegisterView.swift in Sources */,
+				0234FFE627593AEA0091CB71 /* EditReviewView.swift in Sources */,
+				02EF603E2752F830006A6600 /* GenericVM.swift in Sources */,
+				02CD67462755BA340049FC09 /* EnterGradeViewModel.swift in Sources */,
+				0212B3E7275298CD0012C229 /* CourseDetailView.swift in Sources */,
+				02BAF196274FCAF5008E61D0 /* Professor.swift in Sources */,
+				0212B3F8275298F10012C229 /* NewReviewView.swift in Sources */,
+				0212B3FC2752990B0012C229 /* SearchView.swift in Sources */,
+				0212B3FD2752990B0012C229 /* Search.swift in Sources */,
+				02CD674C2755BCBC0049FC09 /* GradesView.swift in Sources */,
+				0212B3F3275298F10012C229 /* ReviewDetailView.swift in Sources */,
+				0212B3E3275298CD0012C229 /* MyCoursesView.swift in Sources */,
+				02B1766027581C6D00EE4C2D /* GradeListVM.swift in Sources */,
+				02EF60402752F857006A6600 /* Protocols.swift in Sources */,
+				02EF604C2752FB57006A6600 /* Enums.swift in Sources */,
+				02BAF167274D71FE008E61D0 /* TutorFindApp.swift in Sources */,
+				0212B3EB275298E60012C229 /* EnterGradeView.swift in Sources */,
+				02B1765A27581AE500EE4C2D /* UserListVM.swift in Sources */,
+				02BAF198274FCB22008E61D0 /* Grade.swift in Sources */,
+				02CD67482755BA3D0049FC09 /* GradeDetailView.swift in Sources */,
+				0212B3E4275298CD0012C229 /* CoursesListViewModel.swift in Sources */,
+				02EF60462752F910006A6600 /* Extensions.swift in Sources */,
+				02EF60502752FC78006A6600 /* Global.swift in Sources */,
+				02EF604E2752FC30006A6600 /* CourseRegister.swift in Sources */,
+				02EF604A2752FAA6006A6600 /* CourseRegisterVM.swift in Sources */,
+				02EF60482752F920006A6600 /* Helpers.swift in Sources */,
+				02CD674E2755DFA20049FC09 /* SimpleMapView.swift in Sources */,
+				02CD67442755BA050049FC09 /* NewCourseView.swift in Sources */,
+				02BAF191274D7218008E61D0 /* User.swift in Sources */,
+				0212B3F6275298F10012C229 /* StarsView.swift in Sources */,
+				0234FFE227593A410091CB71 /* EditGradeView.swift in Sources */,
+				02B1765C27581B6900EE4C2D /* CustomFilterSelectionView.swift in Sources */,
+				0212B3DB275298B40012C229 /* UserSignInView.swift in Sources */,
+				0212B3F7275298F10012C229 /* ReviewListViewModel.swift in Sources */,
+				0234FFE427593AC30091CB71 /* EditCourseView.swift in Sources */,
+				0234FFE027593A2E0091CB71 /* CalendarView.swift in Sources */,
+				02CD67422755B9C40049FC09 /* MultiSelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BAF16F274D71FF008E61D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BAF178274D71FF008E61D0 /* TutorFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BAF179274D71FF008E61D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BAF184274D71FF008E61D0 /* TutorFindUITestsLaunchTests.swift in Sources */,
+				02BAF182274D71FF008E61D0 /* TutorFindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02BAF175274D71FF008E61D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02BAF162274D71FE008E61D0 /* TutorFind */;
+			targetProxy = 02BAF174274D71FF008E61D0 /* PBXContainerItemProxy */;
+		};
+		02BAF17F274D71FF008E61D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02BAF162274D71FE008E61D0 /* TutorFind */;
+			targetProxy = 02BAF17E274D71FF008E61D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02BAF185274D71FF008E61D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02BAF186274D71FF008E61D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02BAF188274D71FF008E61D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TutorFind/Preview Content\"";
+				DEVELOPMENT_TEAM = 4S29G62RQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team10.TutorFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02BAF189274D71FF008E61D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TutorFind/Preview Content\"";
+				DEVELOPMENT_TEAM = 4S29G62RQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team10.TutorFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02BAF18B274D71FF008E61D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S29G62RQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team10.TutorFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutorFind.app/TutorFind";
+			};
+			name = Debug;
+		};
+		02BAF18C274D71FF008E61D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S29G62RQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team10.TutorFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutorFind.app/TutorFind";
+			};
+			name = Release;
+		};
+		02BAF18E274D71FF008E61D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S29G62RQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team10.TutorFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TutorFind;
+			};
+			name = Debug;
+		};
+		02BAF18F274D71FF008E61D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S29G62RQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team10.TutorFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TutorFind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02BAF15E274D71FE008E61D0 /* Build configuration list for PBXProject "TutorFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BAF185274D71FF008E61D0 /* Debug */,
+				02BAF186274D71FF008E61D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BAF187274D71FF008E61D0 /* Build configuration list for PBXNativeTarget "TutorFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BAF188274D71FF008E61D0 /* Debug */,
+				02BAF189274D71FF008E61D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BAF18A274D71FF008E61D0 /* Build configuration list for PBXNativeTarget "TutorFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BAF18B274D71FF008E61D0 /* Debug */,
+				02BAF18C274D71FF008E61D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BAF18D274D71FF008E61D0 /* Build configuration list for PBXNativeTarget "TutorFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BAF18E274D71FF008E61D0 /* Debug */,
+				02BAF18F274D71FF008E61D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02EF60352752F709006A6600 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		02EF603A2752F802006A6600 /* XCRemoteSwiftPackageReference "LocationPickerForSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alessiorubicini/LocationPickerForSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02EF60362752F709006A6600 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02EF60352752F709006A6600 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		02EF60382752F709006A6600 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02EF60352752F709006A6600 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		02EF603B2752F802006A6600 /* LocationPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02EF603A2752F802006A6600 /* XCRemoteSwiftPackageReference "LocationPickerForSwiftUI" */;
+			productName = LocationPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 02BAF15B274D71FE008E61D0 /* Project object */;
+}
