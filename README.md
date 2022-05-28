@@ -1,6 +1,6 @@
 ## epl343.winter21.team10
 
-Cloned project from: https://github.com/CS-UCY-EPL343/epl343.winter21.team10.git
+Cloned team project from: https://github.com/CS-UCY-EPL343/epl343.winter21.team10.git
 
 # TutorFinder
 
